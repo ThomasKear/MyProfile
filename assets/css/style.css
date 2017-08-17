@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+.jumbotron {
+  background-image: url(../images/desk.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  height: 600px;
+  text-align: center;
+  padding-top: 180px;
+  color: #fff;
+}
+
+.about {
+  background-image: url(../images/wallet.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+.about h2 {
+  padding-bottom: 15px;
+}
+
+#projects{
+  background-image: url(../images/table.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+#language{
+  background-image: url(../images/book.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-stack-overflow{
+  background: #F48023;
+  color: white;
+}
+
+#connect{
+  background-image: url(../images/coffee.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  text-align: center;
+  padding: 40px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#link {
+  background-image: url(../images/done.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<head>
+
+
+  <script src="https://use.fontawesome.com/be71533011.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css" </head>
+
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="#">Thomas Kearney's Profile Page</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#language">Technologies</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
+            <li><a href="#connect">Contact</a></li>
+            <li><a href="#link">Social</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- start of jumbotron  -->
+    <div id="begin" class="container-fluid">
+      <div class="jumbotron">
+        <div class="container for-about">
+          <h1>Welcome to my portfolio page</h1>
+          <p>You can view all my recent work here</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- The about me section -->
+    <div id="about" class="container-fluid">
+      <section class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <p>I can't call myself a junior developer as I am 42 years old, served in the Marines, and managed a restaurant staffed with over 60 people. I am new to web development, and enjoy the challenges the indutry presents. I have always had a focus
+                on great customer service and see awesome potential with-in this industry.</p>
+              <p>I strive for a great UI/UX and look forward to building applications and websites that will change the world for the better. I enjoy working within a team and draw from their experiences and wisdom.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- The projects section -->
+    <div id="projects" class="container-fluid">
+      <section class="projects">
+        <div class="container">
+          <h2>Some of my Projects</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3><strong>Restaurant Roulette</strong></h3>
+              <a href="https://rouletter.github.io/Restaurant-Roulette/rouletter.html">
+              <img src="./assets/images/rouletter.png" alt="RouletteR" style="width:304px; height:228px">
+            </a>
+            </div>
+            <div class="col-md-6">
+              <h3><strong>For those days when you don't want to decide</h3>
+              <p>A website that uses RESTful API calls to Google.Maps and Zomato to help decide where to eat. With a push of a button (the roulette wheel) you populate a list (hosted by Googles Firebase) of restaurants within 10 miles of your current location
+                or addres of your choice. It publishes one result at a time on a map with the restaurants information and ratings, and get directions. </strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3><strong>Friend Finder</strong></h3>
+              <a href="https://limitless-fortress-94396.herokuapp.com/">
+              <img src="assets/images/FriendFinder.png" alt="FriendFinder" style="width:304;height:228px">
+            </a>
+            </div>
+            <div class="col-md-6">
+              <h3><strong>A scientifcly proven way to find friends</h3>
+              <p>An Express and Node-based application for matching users based on personality. This appplication was my first time deploying with Heroku.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- The language and technologies section -->
+    <section class="languages">
+      <div id="language" class="container-fluid bg-grey">
+        <h2 class="text-center">Languages and Technologies</h2>
+        <div class="row">
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/html5.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>HTML 5</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/css3.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>CSS 3</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/js.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>Javascript</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/jquery.png" alt="JQuery" style="width:70px; height:70px">
+            <p><strong>Jquery</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/bootstrap.png" alt="Bootstrap" style="width:70px;height:70px">
+            <p><strong>Bootstrap</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/materialize.png" alt="materialize" style="width:70px;height:70px">
+            <p class="text-center"><strong>Materialize</strong></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/node.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>Node JS</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/npm.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>NPM</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/react.png" alt="javaScript" style="width:70px; height:70px">
+            <p><strong>React JS</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/mysql.png" alt="JQuery" style="width:70px; height:70px">
+            <p><strong>MySQL</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/mongodb.png" alt="Bootstrap" style="width:70px;height:70px">
+            <p><strong>MongoDB</strong></p>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <img src="assets/images/api.png" alt="javaScript" style="width:70px; height:70px">
+            <p class="text-center"><strong>RESTful API</strong></p>
+          </div>
+        </div>
+        <div id="row">
+          <div class="row justify-content-md-center">
+            <div class="col-md-6">
+              <img src="assets/images/heroku.png" alt="heroku" style="width:70px;height:70px">
+              <p><strong>Heroku</strong></p>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/firebase.png" alt="Firebase" style="width:70px;height:70px">
+              <p><strong>Firebase</strong></p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- The connect section -->
+
+    <section class="connect">
+      <div id="connect" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <p>Available to talk about future employment.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Raleigh, NC</p>
+            <p><span class="glyphicon glyphicon-phone"></span> (919)208-9102</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> kearnage1975@gmail.com</p>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The link section -->
+
+    <section class="link">
+      <div id="link" class="container-fluid text-center bg-grey">
+        <h4>What we have created</h4>
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+            <p><strong>Linkedin</strong></p>
+            <p></p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+            <p><strong>GitHub</strong></p>
+            <p></p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
+            <p><strong>StackOverflow</strong></p>
+            <p></p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Picture credits -->
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
+      href="https://unsplash.com/@jjthompson?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from JJ  Thompson"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">JJ  Thompson</span></a>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
