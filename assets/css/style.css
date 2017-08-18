@@ -79,6 +79,10 @@ body {
   background-size: cover;
 }
 
+#contact{
+  text-align: left;
+}
+
 #link {
   background-image: url(../images/done.jpg);
   background-size: 100% 100%;
